@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package filterprocessor // import "vs-ssh.visualstudio.com/v3/thycotic/NewCo.Auditing/otel-collector"
+package filterprocessor // import "github.com/christophermancini/filterprocessor"
 
 import (
 	"errors"

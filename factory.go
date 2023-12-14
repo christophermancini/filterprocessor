@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package filterprocessor // import "vs-ssh.visualstudio.com/v3/thycotic/NewCo.Auditing/otel-collector"
+package filterprocessor // import "github.com/christophermancini/filterprocessor"
 
 import (
 	"context"
@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/collector/processor"
 	"go.opentelemetry.io/collector/processor/processorhelper"
 
+	"github.com/christophermancini/filterprocessor/internal/metadata"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"vs-ssh.visualstudio.com/v3/thycotic/NewCo.Auditing/otel-collector/internal/metadata"
 )
 
 var processorCapabilities = consumer.Capabilities{MutatesData: true}

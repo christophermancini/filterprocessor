@@ -5,4 +5,4 @@
 
 // Package filterprocessor implements a processor for filtering
 // (dropping) metrics and/or spans by various properties.
-package filterprocessor // import "vs-ssh.visualstudio.com/v3/thycotic/NewCo.Auditing/otel-collector"
+package filterprocessor // import "github.com/christophermancini/filterprocessor"
