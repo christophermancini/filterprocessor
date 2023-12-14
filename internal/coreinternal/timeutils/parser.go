@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package timeutils // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/timeutils"
+package timeutils // import "github.com/christophermancini/filterprocessor/internal/coreinternal/timeutils"
 
 import (
 	"fmt"
 	"strings"
 	"time"
 
-	strptime "github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/timeutils/internal/ctimefmt"
+	strptime "github.com/christophermancini/filterprocessor/internal/coreinternal/timeutils/internal/ctimefmt"
 )
 
 func StrptimeToGotime(layout string) (string, error) {

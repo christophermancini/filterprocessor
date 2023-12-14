@@ -17,8 +17,8 @@ import (
 	"go.opentelemetry.io/collector/processor"
 	"go.opentelemetry.io/collector/processor/processortest"
 
+	"github.com/christophermancini/filterprocessor/internal/coreinternal/goldendataset"
 	"github.com/christophermancini/filterprocessor/internal/filter/filterconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/goldendataset"
 )
 
 const filteredMetric = "p0_metric_1"

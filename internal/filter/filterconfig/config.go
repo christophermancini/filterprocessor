@@ -11,9 +11,9 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
+	"github.com/christophermancini/filterprocessor/internal/coreinternal/traceutil"
 	"github.com/christophermancini/filterprocessor/internal/filter/filterset"
 	"github.com/christophermancini/filterprocessor/internal/filter/filterset/regexp"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
 )
 
 // MatchConfig has two optional MatchProperties one to define what is processed

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package attraction // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/attraction"
+package attraction // import "github.com/christophermancini/filterprocessor/internal/coreinternal/attraction"
 
 import (
 	"crypto/sha1" // #nosec

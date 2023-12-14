@@ -14,11 +14,11 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 
+	"github.com/christophermancini/filterprocessor/internal/coreinternal/testdata"
+	"github.com/christophermancini/filterprocessor/internal/coreinternal/traceutil"
 	"github.com/christophermancini/filterprocessor/internal/filter/filterconfig"
 	"github.com/christophermancini/filterprocessor/internal/filter/filterottl"
 	"github.com/christophermancini/filterprocessor/internal/filter/filterset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/testdata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottltest"
 )
