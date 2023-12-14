@@ -1,4 +1,4 @@
-module vs-ssh.visualstudio.com/v3/thycotic/NewCo.Auditing/otel-collector
+module github.com/christophermancini/filterprocessor
 
 go 1.20
 
