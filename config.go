@@ -13,10 +13,10 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset/regexp"
+	"github.com/christophermancini/filterprocessor/internal/filter/filterconfig"
+	"github.com/christophermancini/filterprocessor/internal/filter/filterottl"
+	"github.com/christophermancini/filterprocessor/internal/filter/filterset"
+	"github.com/christophermancini/filterprocessor/internal/filter/filterset/regexp"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
 )
 

@@ -13,10 +13,10 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/pdata/plog"
 
+	"github.com/christophermancini/filterprocessor/internal/filter/filterconfig"
+	"github.com/christophermancini/filterprocessor/internal/filter/filterset"
+	fsregexp "github.com/christophermancini/filterprocessor/internal/filter/filterset/regexp"
 	"github.com/christophermancini/filterprocessor/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset"
-	fsregexp "github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset/regexp"
 	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
 )
 
